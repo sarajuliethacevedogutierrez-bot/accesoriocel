@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AccesoriosCel</title>
+  <link rel="stylesheet" href="/frontend/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container site-header">
+      <a class="brand" href="/frontend/assets/index.html" aria-label="AccesoriosCel">
+        <img src="/frontend/images/logo-presentacion.png" alt="Tu Marca Móvil" class="site-logo" />
+      </a>
+      <div class="header-actions">
+        <button class="hamburger" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+        <button id="theme-toggle" aria-label="Cambiar tema">🌓</button>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="/frontend/assets/index.html">Inicio</a></li>
+          <li><a href="/frontend/assets/quienes.html">Quienes Somos</a></li>
+          <li><a href="/frontend/assets/servicios.html">Servicios</a></li>
+          <li><a href="/frontend/assets/productos.html">Productos</a></li>
+          <li><a href="/frontend/assets/blog.html">Blog</a></li>
+          <li><a href="/frontend/assets/contacto.html">Contacto</a></li>
+          <li><a href="/frontend/assets/login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div class="hero-content">
+        <span class="tagline">Accesorios para celular</span>
+        <h1>Tu celular protegido y con estilo</h1>
+        <h2>Accesorios modernos para tu dia a dia</h2>
+        <p>En <strong>AccesoriosCel</strong> ofrecemos fundas, protectores y parlantes con <em>diseño</em>, calidad y entrega rapida. Compra con confianza en nuestra tienda online.</p>
+        <div class="hero-actions">
+          <a href="productos.html" class="btn">Ver productos</a>
+          <a href="contacto.html" class="btn secondary">Contactanos</a>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="container section">
+      <div class="section-title">
+        <h2>Video de presentacion</h2>
+        <p>Una bienvenida visual con los productos que destacan en AccesoriosCel.</p>
+      </div>
+      <div class="presentation-showcase" aria-label="Presentación de AccesoriosCel">
+      <!-- Audio for presentation: place a file at assets/presentacion-melodia.mp3 -->
+      <audio id="presentation-audio" src="assets/presentacion-melodia.mp3" preload="none"></audio>
+      <!-- Play/Pause control -->
+      <button id="presentation-audio-toggle" class="presentation-audio-toggle" aria-label="Reproducir música de presentación" aria-pressed="false">♪</button>
+
+      <div class="presentation-slide slide-1">
+        <div class="presentation-overlay">
+          <span class="presentation-label">Tienda tecnológica</span>
+          <h3>AccesoriosCel</h3>
+          <p>Celulares, fundas, vidrios templados y cargadores en un solo lugar.</p>
+        </div>
+      </div>
+        <div class="presentation-slide slide-2">
+          <div class="presentation-overlay">
+            <span class="presentation-label">Protección y estilo</span>
+            <h3>Fundas y vidrio templado</h3>
+            <p>Diseños modernos para cuidar tu equipo sin perder elegancia.</p>
+          </div>
+        </div>
+        <div class="presentation-slide slide-3">
+          <div class="presentation-overlay">
+            <span class="presentation-label">Audio y conectividad</span>
+            <h3>Auriculares y cables</h3>
+            <p>Sonido claro, carga rápida y conexión confiable para cada momento.</p>
+          </div>
+        </div>
+        <div class="presentation-slide slide-4">
+          <div class="presentation-overlay">
+            <span class="presentation-label">Productividad</span>
+            <h3>Portátiles, teclados y mouse</h3>
+            <p>Soluciones pensadas para trabajar, crear y disfrutar de tu rutina.</p>
+          </div>
+        </div>
+        <div class="presentation-slide slide-5">
+          <div class="presentation-overlay">
+            <span class="presentation-label">Smart life</span>
+            <h3>Relojes y power banks</h3>
+            <p>Potencia, movilidad y tecnología en cada accesorio que eliges.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-title">
+        <h2>Catalogo de productos</h2>
+        <p>Descubre nuestras opciones con los mejores accesorios y dispositivos tecnológicos.</p>
+      </div>
+      <div class="grid-4">
+        <article class="product-card">
+          <img class="product-image" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Computadoras portátiles" />
+          <h3>Computadoras</h3>
+          <p>Portátiles y ultrabooks para trabajar, estudiar y crear con estilo.</p>
+        </article>
+        <article class="product-card">
+          <img class="product-image" src="https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=900&q=80" alt="Parlantes Bluetooth" />
+          <h3>Parlantes</h3>
+          <p>Parlantes potentes para una experiencia de audio premium en casa o en la calle.</p>
+        </article>
+        <article class="product-card">
+          <img class="product-image" src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=900&q=80" alt="Relojes inteligentes" />
+          <h3>Relojes inteligentes</h3>
+          <p>Wearables con monitoreo de salud, notificaciones y diseño moderno.</p>
+        </article>
+        <article class="product-card">
+          <img class="product-image" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80" alt="Audífonos inalámbricos" />
+          <h3>Audífonos</h3>
+          <p>Audífonos Bluetooth con sonido claro y comodidad durante todo el día.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-title">
+        <h2>Especificaciones del catalogo</h2>
+        <p>Tabla con caracteristicas de nuestros productos mas vendidos.</p>
+      </div>
+      <div class="table-wrapper">
+        <table id="specs-table">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Material</th>
+              <th>Color</th>
+              <th>Precio</th>
+              <th>Disponibilidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="category-group-row"><td colspan="5">1. Protección</td></tr>
+            <tr><td>Funda TPU</td><td>Silicona</td><td>Negro</td><td>$15.990</td><td>En stock</td></tr>
+            <tr><td>Funda rigida</td><td>Policarbonato</td><td>Azul</td><td>$18.990</td><td>En stock</td></tr>
+            <tr><td>Protector vidrio</td><td>Vidrio templado</td><td>Transparente</td><td>$9.990</td><td>En stock</td></tr>
+            <tr><td>Protector mate</td><td>Vidrio mate</td><td>Negro</td><td>$11.990</td><td>En stock</td></tr>
+
+            <tr class="category-group-row"><td colspan="5">2. Audio</td></tr>
+            <tr><td>Parlante bluetooth</td><td>Plastico</td><td>Gris</td><td>$34.990</td><td>En stock</td></tr>
+            <tr><td>Auriculares</td><td>Plastico</td><td>Blanco</td><td>$29.990</td><td>En stock</td></tr>
+
+            <tr class="category-group-row"><td colspan="5">3. Cargadores</td></tr>
+            <tr><td>Cargador rapido</td><td>ABS</td><td>Blanco</td><td>$12.990</td><td>En stock</td></tr>
+            <tr><td>Base carga inalambrica</td><td>Plastico</td><td>Navy</td><td>$21.990</td><td>En stock</td></tr>
+
+            <tr class="category-group-row"><td colspan="5">4. Conectividad</td></tr>
+            <tr><td>Cable USB-C</td><td>Nylon trenzado</td><td>Rojo</td><td>$7.990</td><td>En stock</td></tr>
+            <tr><td>Soporte auto</td><td>Aluminio</td><td>Negro</td><td>$14.990</td><td>En stock</td></tr>
+            <tr><td>Soporte escritorio</td><td>Madera</td><td>Natural</td><td>$16.990</td><td>En stock</td></tr>
+            <tr><td>Adaptador USB</td><td>Aluminio</td><td>Plateado</td><td>$8.990</td><td>En stock</td></tr>
+          </tbody>
+        </table>
+        <div class="table-pagination" id="specs-pagination" aria-label="Paginación de especificaciones"></div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-title">
+        <h2>Encuentranos</h2>
+        <p>La ubicacion de nuestra tienda fisica y puntos de atencion.</p>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.632032814551!2d-122.08424968469156!3d37.42199977982514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5d7b2a5d1bd%3A0x3b0479d5ac2a0205!2sGoogleplex!5e0!3m2!1ses!2scl!4v1680271529830!5m2!1ses!2scl" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="container section" id="contacto">
+      <div class="section-title">
+        <h2>Contacto rapido</h2>
+        <p>Envia tu mensaje para recibir ayuda sobre productos y pedidos.</p>
+      </div>
+      <form class="product-card" action="#" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+
+        <label for="correo">Correo electronico</label>
+        <input type="email" id="correo" name="correo" placeholder="tu@correo.com" required />
+
+        <label for="telefono">Numero telefonico</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="+56 9 1234 5678" required />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+
+        <button class="btn" type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h3>AccesoriosCel</h3>
+        <p>Logo: ACEL | Eslogan: Protege, suena y luce</p>
+      </div>
+      <div>
+        <h3>3022779287</h3>
+        <p>sarajuliethacevedogutierrez@gmail.com</p>
+        <p>CR 32 # 5G 38</p>
+      </div>
+      <div>
+        <h3>Suscribete</h3>
+        <form class="subscribe-card" action="#" method="post">
+          <label for="subscribe-email">Correo electronico</label>
+          <input type="email" id="subscribe-email" name="subscribe-email" placeholder="tu@correo.com" required />
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </div>
+      <div>
+        <h3>Siguenos</h3>
+        <div class="social-links">
+          <a href="#">Instagram_saragutierrez416</a>
+          <a href="#">Facebook_Sara_Gutierrez</a>
+          <a href="#">TikTok_@saragutierrez179</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/frontend/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos - AccesoriosCel</title>
+  <link rel="stylesheet" href="/frontend/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container site-header">
+      <a class="brand" href="/frontend/assets/index.html" aria-label="AccesoriosCel">
+        <img src="/frontend/images/logo-presentacion.png" alt="Tu Marca Móvil" class="site-logo" />
+      </a>
+      <div class="header-actions">
+        <button class="hamburger" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+        <button id="theme-toggle" aria-label="Cambiar tema">🌓</button>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="/frontend/assets/index.html">Inicio</a></li>
+          <li><a href="/frontend/assets/quienes.html">Quiénes Somos</a></li>
+          <li><a href="/frontend/assets/servicios.html">Servicios</a></li>
+          <li><a href="/frontend/assets/productos.html">Productos</a></li>
+          <li><a href="/frontend/assets/blog.html">Blog</a></li>
+          <li><a href="/frontend/assets/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="container section catalog-hero">
+      <div class="section-title">
+        <span class="tagline">Catálogo</span>
+        <h2>Accesorios tecnológicos para tu día a día</h2>
+        <p>Descubre cargadores, audio, protección y conectividad con productos modernos, funcionales y de alta calidad para tu celular y escritorio.</p>
+      </div>
+    </section>
+
+    <div class="products-by-category">
+      <div class="tabs" role="tablist" aria-label="Categorías de productos">
+        <button class="tab active" data-target="cat-cargadores" role="tab" aria-selected="true">Cargadores</button>
+        <button class="tab" data-target="cat-audio" role="tab">Audio</button>
+        <button class="tab" data-target="cat-proteccion" role="tab">Protección</button>
+        <button class="tab" data-target="cat-conectividad" role="tab">Conectividad</button>
+      </div>
+
+      <section class="container section category-panel category-cargadores active" id="cat-cargadores">
+        <div class="section-title">
+          <h2>Cargadores y energía</h2>
+          <p>Soluciones rápidas para cargar tus dispositivos en cualquier lugar.</p>
+        </div>
+        <div class="catalog-grid">
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=900&q=80" alt="Cargador USB-C de 65W" />
+            <h3>Cargador USB-C 65W</h3>
+            <p>Carga rápida para laptop, celular y tablet con salida USB-C compacta.</p>
+            <div class="product-meta">
+              <span class="product-price">$59.900</span>
+              <a href="
+              
+              #" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80" alt="Cargador inalámbrico de 15W" />
+            <h3>Cargador Inalámbrico 15W</h3>
+            <p>Diseño elegante con carga eficiente para smartphones compatibles.</p>
+            <div class="product-meta">
+              <span class="product-price">$49.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80" alt="Power bank portátil de 10000 mAh" />
+            <h3>Power Bank 10000 mAh</h3>
+            <p>Banco de energía portátil con doble puerto para cargar dos dispositivos.</p>
+            <div class="product-meta">
+              <span class="product-price">$79.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=900&q=80" alt="Cargador de viaje de 45W" />
+            <h3>Cargador de Viaje 45W</h3>
+            <p>Compacto y ligero, ideal para llevar en mochila o maleta.</p>
+            <div class="product-meta">
+              <span class="product-price">$39.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&w=900&q=80" alt="Base de carga con 3 puertos" />
+            <h3>Base de Carga 3 Puertos</h3>
+            <p>Organiza tu espacio con carga simultánea para celular, reloj y audífonos.</p>
+            <div class="product-meta">
+              <span class="product-price">$69.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="/frontend/images/cargador-supervooc-100w.png" alt="Cargador Original SuperVOOC 100W Max" />
+            <h3>Cargador Original SuperVOOC 100W Max</h3>
+            <p>Cargador original compatible con Oppo Reno y Realme — carga ultra rápida SuperVOOC hasta 100W.</p>
+            <div class="product-meta">
+              <span class="product-price">Consultar</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section category-panel category-audio" id="cat-audio">
+        <div class="section-title">
+          <h2>Audio y entretenimiento</h2>
+          <p>Sonido inmersivo para escuchar tus canciones y llamadas con claridad.</p>
+        </div>
+        <div class="catalog-grid">
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80" alt="Auriculares inalámbricos" />
+            <h3>Auriculares Inalámbricos Pro</h3>
+            <p>Cancelación de ruido y batería de larga duración para uso diario.</p>
+            <div class="product-meta">
+              <span class="product-price">$129.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=900&q=80" alt="Earbuds deportivos" />
+            <h3>Earbuds Deportivos</h3>
+            <p>Diseño ergonómico, resistente al sudor y excelente estabilidad.</p>
+            <div class="product-meta">
+              <span class="product-price">$89.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=900&q=80" alt="Altavoz portátil" />
+            <h3>Altavoz Portátil Bluetooth</h3>
+            <p>Sonido potente con conexión de hasta 20 metros y batería de 12 horas.</p>
+            <div class="product-meta">
+              <span class="product-price">$109.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=900&q=80" alt="Micrófono portátil USB" />
+            <h3>Micrófono USB para Streaming</h3>
+            <p>Ideal para grabaciones, reuniones y creación de contenido.</p>
+            <div class="product-meta">
+              <span class="product-price">$99.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=900&q=80" alt="Soporte para audio" />
+            <h3>Soporte de Audio para Celular</h3>
+            <p>Mejora la experiencia de vídeo y llamadas con una posición cómoda.</p>
+            <div class="product-meta">
+              <span class="product-price">$29.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section category-panel category-proteccion" id="cat-proteccion">
+        <div class="section-title">
+          <h2>Protección y organización</h2>
+          <p>Protege tus dispositivos y mantén tu espacio ordenado.</p>
+        </div>
+        <div class="catalog-grid">
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80" alt="Funda de silicone" />
+            <h3>Funda de Silicona Premium</h3>
+            <p>Protección antiimpactos con agarre cómodo y diseño moderno.</p>
+            <div class="product-meta">
+              <span class="product-price">$24.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1592918945780-a3f6b9c0f4cd?auto=format&fit=crop&w=900&q=80" alt="Protector de pantalla" />
+            <h3>Protector de Pantalla 3D</h3>
+            <p>Excelente resistencia a rayones y una instalación sencilla.</p>
+            <div class="product-meta">
+              <span class="product-price">$14.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=900&q=80" alt="Organizador de cables" />
+            <h3>Organizador de Cables</h3>
+            <p>Reduce el desorden y mantén tus cables seguros y ordenados.</p>
+            <div class="product-meta">
+              <span class="product-price">$19.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=80" alt="Soporte para auto" />
+            <h3>Soporte para Auto</h3>
+            <p>Fija tu celular de forma segura para navegación y videollamadas.</p>
+            <div class="product-meta">
+              <span class="product-price">$34.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Estuche de cuero" />
+            <h3>Estuche de Cuero Slim</h3>
+            <p>Elegancia y protección con un acabado premium y cómodo.</p>
+            <div class="product-meta">
+              <span class="product-price">$44.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="/frontend/images/estuche-nillkin-camshield-armor-pro.png" alt="Estuche Anti Golpes Nillkin iPhone 14/13 CamShield Armor Pro" />
+            <h3>Estuche Anti Golpes Nillkin CamShield Armor Pro</h3>
+            <p>Protección anti golpes con cubierta deslizante para cámara — compatible con iPhone 14 y 13.</p>
+            <div class="product-meta">
+              <span class="product-price">Consultar</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section category-panel category-conectividad" id="cat-conectividad">
+        <div class="section-title">
+          <h2>Conectividad y escritorio</h2>
+          <p>Amplía tus puertos y mejora la experiencia de trabajo y estudio.</p>
+        </div>
+        <div class="catalog-grid">
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="Hub USB-C de 8 puertos" />
+            <h3>Hub USB-C 8 Puertos</h3>
+            <p>Conecta múltiples dispositivos en un solo accesorio compacto.</p>
+            <div class="product-meta">
+              <span class="product-price">$99.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=80" alt="Cable USB-C de 2 metros" />
+            <h3>Cable USB-C 2m</h3>
+            <p>Transmisión rápida y gran resistencia para carga y transferencia.</p>
+            <div class="product-meta">
+              <span class="product-price">$19.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80" alt="Cable HDMI 4K" />
+            <h3>Cable HDMI 4K</h3>
+            <p>Ideal para conectar tu celular o laptop a la TV con excelente calidad.</p>
+            <div class="product-meta">
+              <span class="product-price">$29.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=900&q=80" alt="Adaptador de red USB-C" />
+            <h3>Adaptador de Red USB-C</h3>
+            <p>Conexión estable y rápida para videollamadas, streaming y trabajo remoto.</p>
+            <div class="product-meta">
+              <span class="product-price">$54.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+          <article class="product-card">
+            <img class="product-image" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80" alt="Soporte de laptop ajustable" />
+            <h3>Soporte de Laptop Ajustable</h3>
+            <p>Mejora la ergonomía y ahorra espacio en tu escritorio.</p>
+            <div class="product-meta">
+              <span class="product-price">$74.900</span>
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+    <section class="container section">
+      <div class="section-title">
+        <h2>Especificaciones del catálogo</h2>
+        <p>Tabla con características de nuestros productos más vendidos.</p>
+      </div>
+      <div class="table-wrapper">
+        <table id="specs-table">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Material</th>
+              <th>Color</th>
+              <th>Precio</th>
+              <th>Disponibilidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="category-group-row"><td colspan="5">1. Protección</td></tr>
+            <tr><td>Funda TPU</td><td>Silicona</td><td>Negro</td><td>$15.990</td><td>En stock</td></tr>
+            <tr><td>Funda rígida</td><td>Policarbonato</td><td>Azul</td><td>$18.990</td><td>En stock</td></tr>
+            <tr><td>Protector vidrio</td><td>Vidrio templado</td><td>Transparente</td><td>$9.990</td><td>En stock</td></tr>
+            <tr><td>Protector mate</td><td>Vidrio mate</td><td>Negro</td><td>$11.990</td><td>En stock</td></tr>
+            <tr class="category-group-row"><td colspan="5">2. Audio</td></tr>
+            <tr><td>Parlante bluetooth</td><td>Plástico</td><td>Gris</td><td>$34.990</td><td>En stock</td></tr>
+            <tr><td>Auriculares</td><td>Plástico</td><td>Blanco</td><td>$29.990</td><td>En stock</td></tr>
+            <tr class="category-group-row"><td colspan="5">3. Cargadores</td></tr>
+            <tr><td>Cargador rápido</td><td>ABS</td><td>Blanco</td><td>$12.990</td><td>En stock</td></tr>
+            <tr><td>Base carga inalámbrica</td><td>Plástico</td><td>Navy</td><td>$21.990</td><td>En stock</td></tr>
+            <tr class="category-group-row"><td colspan="5">4. Conectividad</td></tr>
+            <tr><td>Cable USB-C</td><td>Nylon trenzado</td><td>Rojo</td><td>$7.990</td><td>En stock</td></tr>
+            <tr><td>Adaptador USB</td><td>Aluminio</td><td>Plateado</td><td>$8.990</td><td>En stock</td></tr>
+            <tr><td>Soporte auto</td><td>Aluminio</td><td>Negro</td><td>$14.990</td><td>En stock</td></tr>
+            <tr><td>Soporte escritorio</td><td>Madera</td><td>Natural</td><td>$16.990</td><td>En stock</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h3>AccesoriosCel</h3>
+        <p>Tu tienda confiable de accesorios para celular.</p>
+      </div>
+      <div>
+        <h3>Enlaces</h3>
+        <a href="index.html">Inicio</a><br />
+        <a href="servicios.html">Servicios</a><br />
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div>
+        <h3>Síguenos</h3>
+        <div class="social-links">
+          <a href="#">Instagram_saragutierrez416</a>
+          <a href="#">Facebook_sara_gutierrez</a>
+          <a href="#">TikTok_saragutierrez179</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // Tabs for products by category
+    (function(){
+      const tabs = document.querySelectorAll('.tabs .tab');
+      const panels = document.querySelectorAll('.category-panel');
+      function activate(targetId){
+        panels.forEach(p => p.classList.toggle('active', p.id === targetId));
+        tabs.forEach(t => {
+          const sel = t.getAttribute('data-target') === targetId;
+          t.classList.toggle('active', sel);
+          t.setAttribute('aria-selected', sel ? 'true' : 'false');
+        });
+      }
+      document.addEventListener('click', function(e){
+        const btn = e.target.closest('.tabs .tab');
+        if (!btn) return;
+        activate(btn.getAttribute('data-target'));
+      });
+      // keyboard navigation
+      document.addEventListener('keydown', function(e){
+        const activeIndex = Array.from(tabs).findIndex(t => t.classList.contains('active'));
+        if (e.key === 'ArrowRight') {
+          const next = tabs[(activeIndex + 1) % tabs.length]; next && next.focus();
+        } else if (e.key === 'ArrowLeft') {
+          const prev = tabs[(activeIndex - 1 + tabs.length) % tabs.length]; prev && prev.focus();
+        }
+      });
+    })();
+  </script>
+  <script src="/frontend/js/main.js"></script>
+</body>
+</html>

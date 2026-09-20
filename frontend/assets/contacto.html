@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - AccesoriosCel</title>
+  <link rel="stylesheet" href="/frontend/css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container site-header">
+      <a class="brand" href="index.html" aria-label="AccesoriosCel">
+        <img src="assets/logo-presentacion.png" alt="Tu Marca Móvil" class="site-logo" />
+      </a>
+      <div class="header-actions">
+        <button class="hamburger" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+        <button id="theme-toggle" aria-label="Cambiar tema">🌓</button>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="quienes.html">Quiénes Somos</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="container section">
+      <div class="section-title">
+        <h2>Contacto</h2>
+        <p>Escríbenos y recibe respuestas rápidas sobre nuestros productos y servicios.</p>
+      </div>
+      <div class="grid-2">
+        <article class="contact-card contact-highlight">
+          <h3>Información de contacto</h3>
+          <p><strong>Teléfono:</strong> 3022779287</p>
+          <p><strong>Email:</strong>sarajuliethacevedogutierrez@gmail.com</p>
+          <p><strong>Dirección:</strong>CR 32 # 5G 38</p>
+        </article>
+        <article class="contact-card subscribe-highlight">
+          <h3>Suscríbete</h3>
+          <form>
+            <label for="email-subscribe">sarajuliethacevedogutierrez@gmail.com</label>
+            <input type="email" id="email-subscribe" name="email-subscribe" placeholder="tu@correo.com" required />
+            <button class="btn" type="submit">Enviar</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-title">
+        <h2>Escríbenos</h2>
+      </div>
+      <div class="section-title">
+        <h2>Ubicación</h2>
+      </div>
+      <div class="contact-card">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.632032814551!2d-122.08424968469156!3d37.42199977982514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5d7b2a5d1bd%3A0x3b0479d5ac2a0205!2sGoogleplex!5e0!3m2!1ses!2scl!4v1680271529830!5m2!1ses!2scl" width="100%" height="320" style="border:0; border-radius:1rem;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <form class="contact-card" action="#" method="post">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="tu@correo.com" required />
+
+        <label for="phone">Número telefónico</label>
+        <input type="tel" id="phone" name="phone" placeholder="+56 9 1234 5678" required />
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+
+        <button class="btn" type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h3>AccesoriosCel</h3>
+        <p>Tu tienda confiable de accesorios para celular.</p>
+      </div>
+      <div>
+        <h3>Enlaces</h3>
+        <a href="index.html">Inicio</a><br />
+        <a href="quienes.html">Quiénes Somos</a><br />
+        <a href="productos.html">Productos</a>
+      </div>
+      <div>
+        <h3>Síguenos</h3>
+        <div class="social-links">
+          <a href="#">Instagram_saragutierrez416</a>
+          <a href="#">Facebook_sara_gutierrez</a>
+          <a href="#">TikTok@saragutierrez179</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
